@@ -50,7 +50,7 @@ var display = function(index)
 }
 var autoTabStart = function()
 {
-	focusTimeHandler = setInterval(function(){move(true);},3000);
+	focusTimeHandler = setInterval(function(){move(true);},2000);
 }
 var autoTapStop = function()
 {

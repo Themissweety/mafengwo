@@ -590,7 +590,7 @@ body
 		padding: 0px 10px 20px;
 	}
 
-	.m-content
+	#m-content
 	{
 		float: right;
 		width: 690px;

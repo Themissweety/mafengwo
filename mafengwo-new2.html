@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>蚂蜂窝</title>
+	<link rel="stylesheet" href="main.css" type="text/css"></link>
+
+</head>
+<body onload="autoTabStart()">
+	<div id="header">
+		<div id="h-header">
+			<a href="http://www.mafengwo.cn/" title="蚂蜂窝旅游攻略">
+				<span id="logo"></span>
+			</a>
+			<div id="h-h-right">
+				<div class="h-link">
+					<ul>
+						<li class="h-l-wrap">
+							<a title="更多登陆方式" class="h-l-more">更多
+								<i class="h-l-m-more"></i>
+							</a>
+							<ul class="drop-bd">
+								<li>
+									<a title="MSN登录" rel="nofollow">
+										<i class="icon-msn"></i>
+										MSN登录
+									</a>
+								</li>
+								<li>
+									<a title="开心网登录" rel="nofollow">
+										<i class="icon-kaixin"></i>
+										开心网登录
+									</a>
+								</li>
+								<li>
+									<a title="搜狐微博登录" rel="nofollow">
+										<i class="icon-sohu"></i>
+										搜狐微博登录
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="h-l-logo">
+							<a class="login" title="登陆蚂蜂窝" href="https://passport.mafengwo.cn">登陆</a>
+							<a class="logon" title="注册账号" href="https://passport.mafengwo.cn/regist.html">注册</a>
+							<a class="l-qq" title="QQ登陆" href="hrrps://passport.mafengwo.cn/qq">QQ登陆</a>
+							<a class="l-sina" title="微博登陆" href="https://passport.mafengwo.cn/weibo">微博登陆</a>
+							<a class="l-renren" title="人人网登陆" href="https://passport.mafengwo.cn/renren">人人网登陆</a>
+						</li>
+					</ul>
+				</div>
+				<form id="search">
+					<div class="s-message">
+  						<input type="text" name="select" placeholder="搜目的地/攻略/酒店/用户"/>
+  					</div>
+  					<div class="s-hand">
+  						<input type="submit" value=" " />
+  					</div>
+				</form>
+			</div>
+		</div>
+		<div id="h-nav">
+			<div class="h-n-content">
+				<div class="fastnav">
+					<div class="fastnav-head">
+						快速导航
+					</div>
+					<div class="fastnav-body">
+						<div class="fastnav-group">
+							<div class="f-g-hot">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>TOP热点</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+								<div class="fastnav-panel">
+									<div class="inner">
+										<span class="cover-img">
+											<a class="cover-link" href="http://www.mafengwo.cn/qa/exchange.php"></a>
+										</span>
+										<div class="panel-content">
+											<h4>TOP热点</h4>
+											<ul class="sub">
+												<li>
+													<dl>
+														<dt>
+															<a href="http://www.mafengwo.cn/group/">小组</a>
+														</dt>
+													</dl>
+													<dl style="width:80px;">
+														<dt>
+															<a href="http://www.mafengwo.cn/rudder/">分舵同城</a>
+														</dt>
+													</dl>
+													<dl class="third">
+														<dt>
+															<a class="hightlight" href="http://www.mafengwo.cn/activity/toread.php">探路者 为你喜欢的装备送颗心</a>
+														</dt>
+													</dl>
+												</li>
+												<li>
+													<dl>
+														<dt>
+															<a href="http://www.mafengwo.cn/qa/exchange.php">蜂蜜商城</a>
+														</dt>
+													</dl>
+													<dl style="width:80px;">
+														<dt>
+															<a href="http://www.mafengwo.cn/studio/">旅行制片厂</a>
+														</dt>
+													</dl>
+													<dl class="third">
+														<dt>
+															<a href="http://www.mafengwo.cn/studio/detail.php?id=1073">焕彩巴黎精彩集锦</a>
+														</dt>
+													</dl>
+												</li>
+												<li>
+													<dl>
+														<dt>
+															<a href="http://www.mafengwo.cn/traveller/">旅行家专栏</a>
+														</dt>
+													</dl>
+													<dl style="width:80px;">
+														<dt>
+															<a href="http://www.mafengwo.cn/school/">蚂蜂窝高校</a>
+														</dt>
+													</dl>
+													<dl class="third">
+														<dt>
+															<a class="hightlight" href="http://www.mafengwo.cn/i/3119931.html">撒野旅行基金参与出行互动有好礼</a>
+														</dt>
+													</dl>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="f-g-trip">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>旅游特价</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+							<div class="f-g-season">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>当季热门目的地</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+							<div class="f-g-internal">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>国内旅游目的地</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+							<div class="f-g-international">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>出境旅游目的地</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+							<div class="f-g-around">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>周边旅游目的地</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+							<div class="f-g-service">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>出行服务</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+							<div class="f-g-app">
+								<div class="fastnav-title">
+									<i class="fastnav-icon"></i>
+									<h3>手机app</h3>
+									<b class="fastnav-arrow"></b>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="mainnav">
+					<li>
+						<a href="http://www.mafengwo.cn/">首页</a>
+					</li>
+					<li>
+						<a href="http://www.mafengwo.cn/gonglve/" title="旅游攻略">旅游攻略</a>
+					</li>
+					<li>
+						<a href="http://www.mafengwo.cn/mdd/" title="目的地">目的地</a>
+					</li>
+					<li>
+						<a href="http://www.mafengwo.cn/wenda/" title="问答">问答</a>
+					</li>
+					<li>
+						<a href="http://www.mafengwo.cn/hotel/" title="酒店预订">酒店预订</a>
+					</li>
+					<li>
+						<a href="http://www.mafengwo.cn/flight/" title="机票预订">机票</a>
+					</li>
+					<li>
+						<a href="http://www.mafengwo.cn/sales" title="自由行">自由行</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	<div id="main" onmouseover="autoTapStop()" onmouseout="autoTabStart()">
+		<div id="m-content">
+			<div class="m-focus">
+				<div class="m-c-play" id="m-c-h" onmouseover="mOver()" onmouseout="mOut()">
+					<div id="m-c-hand" style="display:none">
+                    	<b class="m-c-hand-left" href="javascript:void(0)" onclick="move(false)"></b>
+                    	<b class="m-c-hand-right" href="javascript:void(0)" onclick="move(true)"></b>
+                	</div>
+					<ul id="Imagesshow">
+						<li class="show" onmouseover="emove(this)">
+							<a href="http://mafengwo.cn/i/3264945.html">
+								<img height="350" width="565" src="images/miandian-large.jpeg">
+							</a>
+							<div class="info">
+								图片来自于<a href="http://mafengwo.cn/travel-scenic-spot/mafengwo/109820.html">缅甸</a>，此目的地共收藏了<a href="http://www.mafengwo.cn/photo/mdd/109820.html">192574</a>张<a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/109820.html">缅甸</a>图片。本片由<a href="http://www.mafengwo.cn/u/5350202.html">红小兔Summer</a>荣誉出品！
+							</div>
+						</li>
+						<li onmouseover="emove(this)">
+							<a href="http://mafengwo.cn/i/3242473.html">
+								<img height="350" width="565" src="images/taiwan-large.jpeg">
+							</a>
+							<div class="info">
+								图片来自于<a href="http://mafengwo.cn/travel-scenic-spot/mafengwo/12684.html">台湾</a>，此目的地共收藏了<a href="http://www.mafengwo.cn/photo/mdd/12684.html">1957631</a>张<a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/12684.html">台湾</a>图片。本片由<a href="http://www.mafengwo.cn/u/65321766.html">Luna3_0</a>荣誉出品！
+							</div>
+						</li>
+						<li onmouseover="emove(this)">
+							<a href="http://mafengwo.cn/i/3264945.html">
+								<img height="350" width="565" src="images/nanjing-large.jpeg">
+							</a>
+							<div class="info">
+								图片来自于<a href="http://mafengwo.cn/travel-scenic-spot/mafengwo/10684.html">南京</a>，此目的地共收藏了<a href="http://www.mafengwo.cn/photo/mdd/10684.html">381865</a>张<a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/10684.html">南京</a>图片。本片由<a href="http://www.mafengwo.cn/u/10317092.html">毛毛熊</a>荣誉出品！
+							</div>
+						</li>
+						<li onmouseover="emove(this)">
+							<a href="http://mafengwo.cn/i/3264945.html">
+								<img height="350" width="565" src="images/jiangnan-large.jpeg">
+							</a>
+							<div class="info">
+								图片来自于<a href="http://mafengwo.cn/travel-scenic-spot/mafengwo/23934.html">江南</a>，此目的地共收藏了<a href="http://www.mafengwo.cn/photo/mdd/23934.html">192574</a>张<a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/23934.html">江南</a>图片。本片由<a href="http://www.mafengwo.cn/u/5350202.html">红小兔Summer</a>荣誉出品！
+							</div>
+						</li>
+						<li onmouseover="emove(this)">
+							<a href="http://mafengwo.cn/i/3264945.html">
+								<img height="350" width="565" src="images/jinan-large.jpeg">
+							</a>
+							<div class="info">
+								图片来自于<a href="http://mafengwo.cn/travel-scenic-spot/mafengwo/22588.html">济南</a>，此目的地共收藏了<a href="http://www.mafengwo.cn/photo/mdd/22588.html">192574</a>张<a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/22588.html">济南</a>图片。本片由<a href="http://www.mafengwo.cn/u/17146051.html">大侠.魔王</a>荣誉出品！
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="m-c-nav" onclick="autoTapStop()">
+					<ul id="Nav">
+						<li class="selected" onclick="display(0)">
+							<a href="#">
+								<img src="images/miandian-little.jpeg">
+							</a>
+						</li>
+						<li onclick="display(1)">
+							<a href="#">
+								<img src="images/taiwan-little.jpeg">
+							</a>
+						</li>
+						<li onclick="display(2)">
+							<a href="#">
+								<img src="images/nanjing-little.jpeg">
+							</a>
+						</li>
+						<li onclick="display(3)">
+							<a href="#">
+								<img src="images/jiangnan-little.jpeg">
+							</a>
+						</li>
+						<li onclick="display(4)">
+							<a href="#">
+								<img src="images/jinan-little.jpeg">
+							</a>
+						</li>
+					</ul>
+					<a href="http://mafengwo.cn/app/calendar.php" class="cal-tab"></a>
+				</div>
+			</div>
+			<div class="pastbox">
+				<div class="p-title">
+					<h2>游记</h2>
+					<div class="new-post">
+						<a href="https://passport.mafengwo.cn/">	发表新游记</a>
+					</div>
+				</div>
+			</div>
+			<div class="post-main">
+				<div class="post-list">
+					<ul>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href=" ">
+									<img src="images/1.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											古宫闲地少，水巷小桥多---穷游威尼斯
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/01.gif" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">醉卧花间</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/05.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">米耍耍</a>
+											2015-01-30 10:56
+										</p>
+									</div>
+									<div class="post-info">
+										<p>开始我的游记之前，先引用一下意大利路书上的话，来概括一下威尼斯的特色和独特的内涵。因为去过以后才愈加的感觉这几段话的精彩！ ====...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">83487/459</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										4983
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/2.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											不想出国又想看海？你也可以来三亚！
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/08.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">昂宝妈妈</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/02.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">差不多</a>
+											2015-01-30 10:56
+										</p>
+									</div>
+									<div class="post-info">
+										<p>这两天一直在看网上传的很火的张千里和左手的游记，亲子游只在其中占有很小的篇幅。我想自己离旅游者真的还差很远很远，有孩子前几乎没认...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">18590/56</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										4151
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/3.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											哈市~加格达奇~漠河......
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/03.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">小蓓</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/09.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">浩轩</a>
+											2015-01-30 10:56
+										</p>
+									</div>
+									<div class="post-info">
+										<p>还有半年就要离开天津了~然后再回来还不晓得要到什么时候......于是想着怎么也应该再往北边去一点吧......考研这大半年每天听的都是《公路...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">14554/124</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										4651
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/4.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											在泰国享受灿烂一夏的阳光（2012.6
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/02.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">邓米米</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/010.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">飞天</a>
+											2015-01-30 10:56
+										</p>
+									</div>
+									<div class="post-info">
+										<p>写在前面的话：各位蜂友们，本人南宁人，刚建立了南宁舵，欢迎大家加入我们的分舵！欢迎南宁的蜂蜂和喜欢南宁的蜂蜂都加入进来，大家一...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">40459/598</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										4935
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/5.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											【新西兰自驾游】现在出发，开着
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/04.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">挠dou</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/07.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">ada</a>
+											2015-01-30 10:56
+										</p>
+									</div>
+									<div class="post-info">
+										<p>十月走了一趟 新西兰 南岛，两人，自驾。返回至今，太多抹不去的色彩。太多引下来的画卷，翻看图片，溢满回忆，写几个字整理行程，也分...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">4849/184</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										232
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/6.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											烟雨西塘
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/09.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">觉悟·大叔</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/03.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">风过云淡</a>
+											2015-01-30 10:55
+										</p>
+									</div>
+									<div class="post-info">
+										<p>在西塘这个小店很出名 感谢我的朋友：“选姐”来过一万八千次西塘之后 依然肯陪我来西塘 我不愿送人 亦不愿人送我 对于自己真正舍不...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">54408/504</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										4747
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/7.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											星轨拍摄技术入门指南及后期进阶
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/08.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">毛毛熊</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/08.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">毛毛熊</a>
+											2015-01-30 10:55
+										</p>
+									</div>
+									<div class="post-info">
+										<p>如觉得教程尚可，浪费您5秒钟，请到http:imfw.cn/l/69888 ，为我的照片支持一下，谢谢。---------------------------------------...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">1164/33</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										92
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/8.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											上海浮生记————步量深幽百年路（多图
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/03.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">阿滋楠</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/05.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">林先生漫</a>
+											2015-01-30 10:55
+										</p>
+									</div>
+									<div class="post-info">
+										<p>————提示：该文比较长图片比较多请耐心等待他全部打开观看。照片为卡片机T7、单反D70拍摄，效果多有差异。有街才有市，路是城市的血...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">64888/214</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										5193
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/9.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											遇见福尔摩沙（环台湾游记，超长请慎
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/07.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">刘希瑞</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/07.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">刘希瑞</a>
+											2015-01-30 10:55
+										</p>
+									</div>
+									<div class="post-info">
+										<p>（题目注：荷兰据台时期，台湾被称为福尔摩沙，如今的台湾也有一条高速叫福尔摩沙哦。觉得这个名字很有诗意，于是就把它当做这篇游记的题...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">34025/452</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										5043
+									</div>
+								</dt>
+							</dl>
+						</li>
+						<li class="post-item">
+							<div class="p-i-c">
+								<a href="http://www.mafengwo.cn/">
+									<img src="images/10.jpeg">
+								</a>
+							</div>
+							<dl class="p-i-cf">
+								<dd>
+									<h2>
+										<a href="http://www.mafengwo.cn/">
+											海还在，我们浪漫依旧
+										</a>
+									</h2>
+									<div class="p-i-author">
+										<p class="p-i-authorA">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/06.jpeg" width="16px">
+											</a>
+											作者：
+											<a href="http://www.mafengwo.cn/">总是有你</a>
+										</p>
+										<p class="p-i-authorB">
+											<a href="http://www.mafengwo.cn/">
+												<img src="images/04.jpeg" width="16px">
+											</a>
+											回复：
+											<a href="http://www.mafengwo.cn/">行游天下</a>
+											2015-01-30 10:55
+										</p>
+									</div>
+									<div class="post-info">
+										<p>这一片海是我曾经最爱的地方，海浪总是在倾诉着某种情感，而我的思绪总是在海浪中渐渐蔓延开，这里不再...</p>
+									</div>
+								</dd>
+								<dt>
+									<div class="p-i-count">
+										<span class="p-i-view">
+											<b></b>
+											<a href="http://www.mafengwo.cn/">83487/899</a>
+										</span>
+									</div>
+									<div class="p-i-like">
+										<b class="btn"></b>
+										9290
+									</div>
+								</dt>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<div class="post-pagin">
+					<div align="right" class="paginator">
+						<a class="ti-1" href=" ">1</a>
+						<a class="ti" href=" ">2</a>
+						<a class="ti" href=" ">3</a>
+						<a class="ti" href=" ">4</a>
+						<a class="ti" href=" ">5</a>
+						<a class="ti" href=" ">6</a>
+						<a class="ti" href=" ">7</a>
+						<a class="ti" href=" ">8</a>
+						<a class="ti" href=" ">9</a>
+						<a class="ti" href=" ">...</a>
+						<a class="ti-2" href=" ">next>></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="index-side">
+			<div class="hotels">
+				<h2>酒店预订</h2>
+				<form>
+					<div class="inp-htxt">
+						<input type="text" placeholder="目的地/城市/酒店">
+					</div>
+					<div class="clearfix">
+						<input type="submit" value="搜索" class="inp-hbtn">
+						<span class="h-date">
+							<i></i>
+							入住
+							<input type="text"> 
+						</span>
+						<span class="h-date">
+							<i></i>
+							离店
+							<input type="text"> 
+						</span>
+					</div>
+				</form>
+			</div>
+			<div class="book">
+				<div class="b-header">
+					<div class="b-h">
+						<h2>旅游攻略推荐</h2>
+					</div>
+					<span class="b-fr">
+						<a href="/gonglve/">更多></a>
+					</span>
+				</div>
+				<div class="b-cf">
+					<div class="bookimg">
+						<a href="/gonglve/mdd-11142.html">
+							<img src="images/lisiben.jpeg">
+						</a>
+					</div>
+					<div class="b-info">
+						<strong>
+							<a href="/gonglve/mdd-11142.html" title="里斯本">里斯本</a>
+						</strong>
+						<p>详细的吃、住、行、景点、线路、实用信息</p>
+						<div class="b-btn">
+							<a href="/gonglve/mdd-11142.html">里斯本旅游攻略下载</a>
+						</div>
+					</div>
+				</div>
+				<ul class="list">
+					<li>
+						<img src="images/ico.gif">
+						<a class="u" href="/u/87958314.html">又色又懒</a>&nbsp;点评了：
+						<a class="b" href="/travel-scenic-spot/mafengwo/10035.html">成都</a>的
+						<a href="/poi/8544704.html">坎上坎老火锅</a>
+					</li>
+					<li>
+						<img src="images/ico.gif">
+						<a class="u" href="/u/87958314.html">坐看云起</a>&nbsp;点评了：
+						<a class="b" href="/travel-scenic-spot/mafengwo/10035.html">拉萨</a>的
+						<a href="/poi/8544704.html">拉萨河</a>
+					</li>
+					<li>
+						<img src="images/ico.gif">
+						<a class="u" href="/u/87958314.html">温温wend</a>&nbsp;点评了：
+						<a class="b" href="/travel-scenic-spot/mafengwo/10035.html">毛里求斯</a>的
+						<a href="/poi/8544704.html">大湾(Gr</a>
+					</li>
+					<li>
+						<img src="images/ico.gif">
+						<a class="u" href="/u/87958314.html">娓娓Audr</a>&nbsp;点评了：
+						<a class="b" href="/travel-scenic-spot/mafengwo/10035.html">绍兴</a>的
+						<a href="/poi/8544704.html">如家快捷酒店</a>
+					</li>
+					<li>
+						<img src="images/ico.gif">
+						<a class="u" href="/u/87958314.html">大BUG</a>&nbsp;点评了：
+						<a class="b" href="/travel-scenic-spot/mafengwo/10035.html">厦门</a>的
+						<a href="/poi/8544704.html">集美学村</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mapp">
+				<div class="mapp-title">
+					<div class="mapp-t-h">
+						<h2>
+							<a href="/app/intro/fanyi.php">手机应用</a>
+						</h2>
+					</div>
+				</div>
+				<ul class="mapp-cf">
+					<li>
+						<div>
+							<a href="/app/intro/gonglve.php">
+								<img src="images/app_gl.gif">
+							</a>
+						</div>
+						<strong>
+							<a href="/app/intro/gonglve.php">旅游攻略</a>
+						</strong>
+					</li>
+				</ul>
+			</div>
+		</div>
+	
+	</div>
+
+	<script type ="text/javascript" src ="main.js"></script>
+
+</body>
+</html>
